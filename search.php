@@ -21,7 +21,7 @@
                     <div class="col-md-2 col-xs-4">
                         <span class="pull-right"><h5>Antwerpen-Centraal</h5></span>
                     </div>
-                    <div class="col-md-8 col-xs-4">
+                    <div class="col-md-8 col-xs-4 vertical-center">
                         <div class="line on-time"></div>
                     </div>
                     <div class="col-md-2 col-xs-4">
