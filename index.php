@@ -12,6 +12,40 @@
         <div id="search" class="container-fluid">
             <div class="container">
                 <h1>WebApp</h1>
+                <div class="form-group">
+                    <row>
+                        <div class="col-md-6 col-sx-6">
+                            <label for="from">from</label>
+                            <input type="text" class="form-control" id="from">
+                        </div>
+                        <div class="col-md-6 col-sx-6">
+                            <label for="to">to</label>
+                            <input type="text" class="form-control" id="to">
+                        </div>
+                    </row>
+                    <row class="row-space">
+                        <div class="col-md-6 col-sx-0">
+                        </div>
+                        <div class="col-md-3 col-sx-6">
+                            <label for="date">date</label>
+                            <div class="input-group date" data-provide="datepicker">
+                                <input type="text" class="form-control" id="date">
+                                <div class="input-group-addon">
+                                    <span class="glyphicon glyphicon-th"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sx-6">
+                            <label for="time">time</label>
+                            <div class="input-group date" data-provide="datepicker">
+                                <input type="text" class="form-control" id="time">
+                                <div class="input-group-addon">
+                                    <span class="glyphicon glyphicon-th"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </row>
+                 </div>
             </div>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

@@ -7,3 +7,7 @@
     background: linear-gradient(30deg, #f2f2f2, #d1d1d1);
     height: 100vh;
 }
+
+.row-space{
+    margin-top: 25px;
+}
