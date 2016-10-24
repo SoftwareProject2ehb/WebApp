@@ -16,9 +16,15 @@ body{
     margin-top: 25px;
 }
 
-.result{
+.result-upper{
     background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.result-down{
+    background-color: rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .line{
@@ -26,4 +32,17 @@ body{
     width: 100%;
     border-radius: 2px;
     background-color: #333333;
+    vertical-align: middle;
+}
+
+.on-time{
+    background-color: lightgreen;
+}
+
+.delayed{
+    background-color: orange;
+}
+
+.cancelled{
+    background-color: indianred;
 }

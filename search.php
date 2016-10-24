@@ -17,23 +17,25 @@
                     <div class="col-md-2 col-xs-2"><h4>IC 1234</h4></div>
                     <div class="col-md-10 col-xs-10"><h4>Antwerpen-Centraal - Brussel-Zuid</h4></div>
                 </div>
-                <div class="row result">
-                    <div class="col-md-2 col-xs-2">
+                <div class="row result-upper">
+                    <div class="col-md-2 col-xs-4">
                         <span class="pull-right"><h5>Antwerpen-Centraal</h5></span>
                     </div>
-                    <div class="col-md-8 col-xs-8">
-                        <div class="line"></div>
+                    <div class="col-md-8 col-xs-4">
+                        <div class="line on-time"></div>
                     </div>
-                    <div class="col-md-2 col-xs-2">
+                    <div class="col-md-2 col-xs-4">
                         <h5>Brussel-Zuid</h5>
                     </div>
-                    <div class="col-md-2 col-xs-2">
+                </div>
+                <div class="row result-down">
+                    <div class="col-md-2 col-xs-4">
                         <span class="pull-right"><h5>Spoor 24 - 12:45</h5></span>
                     </div>
-                    <div class="col-md-8 col-xs-8 text-center">
-                        <h5>Er zijn momenteel geen vertagingen</h5>
+                    <div class="col-md-8 col-xs-4 text-center">
+                        <h5>On time</h5>
                     </div>
-                    <div class="col-md-2 col-xs-2">
+                    <div class="col-md-2 col-xs-4">
                         <h5>Spoor 14 - 13:00</h5>
                     </div>
                 </div> 
@@ -41,23 +43,25 @@
                     <div class="col-md-2 col-xs-2"><h4>IC 1234</h4></div>
                     <div class="col-md-10 col-xs-10"><h4>Antwerpen-Centraal - Brussel-Zuid</h4></div>
                 </div>
-                <div class="row result">
-                    <div class="col-md-2 col-xs-2">
+                <div class="row result-upper">
+                    <div class="col-md-2 col-xs-4">
                         <span class="pull-right"><h5>Antwerpen-Centraal</h5></span>
                     </div>
-                    <div class="col-md-8 col-xs-8">
-                        <div class="line"></div>
+                    <div class="col-md-8 col-xs-4">
+                        <div class="line delayed"></div>
                     </div>
-                    <div class="col-md-2 col-xs-2">
+                    <div class="col-md-2 col-xs-4">
                         <h5>Brussel-Zuid</h5>
                     </div>
-                    <div class="col-md-2 col-xs-2">
+                </div>
+                <div class="row result-down">
+                    <div class="col-md-2 col-xs-4">
                         <span class="pull-right"><h5>Spoor 24 - 12:45</h5></span>
                     </div>
-                    <div class="col-md-8 col-xs-8 text-center">
-                        <h5>Er zijn momenteel geen vertagingen</h5>
+                    <div class="col-md-8 col-xs-4 text-center">
+                        <h5>Delayed +0h15</h5>
                     </div>
-                    <div class="col-md-2 col-xs-2">
+                    <div class="col-md-2 col-xs-4">
                         <h5>Spoor 14 - 13:00</h5>
                     </div>
                 </div> 
@@ -65,23 +69,25 @@
                     <div class="col-md-2 col-xs-2"><h4>IC 1234</h4></div>
                     <div class="col-md-10 col-xs-10"><h4>Antwerpen-Centraal - Brussel-Zuid</h4></div>
                 </div>
-                <div class="row result">
-                    <div class="col-md-2 col-xs-2">
+                <div class="row result-upper">
+                    <div class="col-md-2 col-xs-4">
                         <span class="pull-right"><h5>Antwerpen-Centraal</h5></span>
                     </div>
-                    <div class="col-md-8 col-xs-8">
-                        <div class="line"></div>
+                    <div class="col-md-8 col-xs-4">
+                        <div class="line cancelled"></div>
                     </div>
-                    <div class="col-md-2 col-xs-2">
+                    <div class="col-md-2 col-xs-4">
                         <h5>Brussel-Zuid</h5>
                     </div>
-                    <div class="col-md-2 col-xs-2">
+                </div>
+                <div class="row result-down">
+                    <div class="col-md-2 col-xs-4">
                         <span class="pull-right"><h5>Spoor 24 - 12:45</h5></span>
                     </div>
-                    <div class="col-md-8 col-xs-8 text-center">
-                        <h5>Er zijn momenteel geen vertagingen</h5>
+                    <div class="col-md-8 col-xs-4 text-center">
+                        <h5>Cancelled</h5>
                     </div>
-                    <div class="col-md-2 col-xs-2">
+                    <div class="col-md-2 col-xs-4">
                         <h5>Spoor 14 - 13:00</h5>
                     </div>
                 </div> 
