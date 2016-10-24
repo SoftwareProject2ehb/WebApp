@@ -14,23 +14,23 @@
             <div class="container">
                 <h1>WebApp</h1>
                 <div class="row">
-                    <div class="col-md-2"><h4>IC 1234</h4></div>
-                    <div class="col-md-8"><h4>Antwerpen-Centraal - Brussel-Zuid</h4></div>
-                    <div class="col-md-2"><h4>12:15 - Spoor 24</h4></div>
+                    <div class="col-md-2 col-xs-2"><h4>IC 1234</h4></div>
+                    <div class="col-md-8 col-xs-10"><h4>Antwerpen-Centraal - Brussel-Zuid</h4></div>
+                    <div class="col-md-2 col-xs-12"><h4>12:15 - Spoor 24 </h4></div>
                 </div>
                 <div class="row">
                 </div> 
                 <div class="row">
-                    <div class="col-md-2"><h4>IC 1234</h4></div>
-                    <div class="col-md-8"><h4>Antwerpen-Centraal - Brussel-Zuid</h4></div>
-                    <div class="col-md-2"><h4>12:30 - Spoor 24</h4></div>
+                    <div class="col-md-2 col-xs-2"><h4>IC 1234</h4></div>
+                    <div class="col-md-8 col-xs-10"><h4>Antwerpen-Centraal - Brussel-Zuid</h4></div>
+                    <div class="col-md-2 col-xs-12"><h4>12:15 - Spoor 24</h4></div>
                 </div>
                 <div class="row">
                 </div> 
                 <div class="row">
-                    <div class="col-md-2"><h4>IC 1234</h4></div>
-                    <div class="col-md-8"><h4>Antwerpen-Centraal - Brussel-Zuid</h4></div>
-                    <div class="col-md-2"><h4>12:45 - Spoor 24</h4></div>
+                    <div class="col-md-2 col-xs-2"><h4>IC 1234</h4></div>
+                    <div class="col-md-8 col-xs-10"><h4>Antwerpen-Centraal - Brussel-Zuid</h4></div>
+                    <div class="col-md-2 col-xs-12"><h4>12:15 - Spoor 24</h4></div>
                 </div>
                 <div class="row">
                 </div> 
