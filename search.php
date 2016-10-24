@@ -15,24 +15,75 @@
                 <h1>WebApp</h1>
                 <div class="row">
                     <div class="col-md-2 col-xs-2"><h4>IC 1234</h4></div>
-                    <div class="col-md-8 col-xs-10"><h4>Antwerpen-Centraal - Brussel-Zuid</h4></div>
-                    <div class="col-md-2 col-xs-12"><h4>12:15 - Spoor 24 </h4></div>
+                    <div class="col-md-10 col-xs-10"><h4>Antwerpen-Centraal - Brussel-Zuid</h4></div>
                 </div>
-                <div class="row">
+                <div class="row result">
+                    <div class="col-md-2 col-xs-2">
+                        <span class="pull-right"><h5>Antwerpen-Centraal</h5></span>
+                    </div>
+                    <div class="col-md-8 col-xs-8">
+                        <div class="line"></div>
+                    </div>
+                    <div class="col-md-2 col-xs-2">
+                        <h5>Brussel-Zuid</h5>
+                    </div>
+                    <div class="col-md-2 col-xs-2">
+                        <span class="pull-right"><h5>Spoor 24 - 12:45</h5></span>
+                    </div>
+                    <div class="col-md-8 col-xs-8 text-center">
+                        <h5>Er zijn momenteel geen vertagingen</h5>
+                    </div>
+                    <div class="col-md-2 col-xs-2">
+                        <h5>Spoor 14 - 13:00</h5>
+                    </div>
                 </div> 
                 <div class="row">
                     <div class="col-md-2 col-xs-2"><h4>IC 1234</h4></div>
-                    <div class="col-md-8 col-xs-10"><h4>Antwerpen-Centraal - Brussel-Zuid</h4></div>
-                    <div class="col-md-2 col-xs-12"><h4>12:15 - Spoor 24</h4></div>
+                    <div class="col-md-10 col-xs-10"><h4>Antwerpen-Centraal - Brussel-Zuid</h4></div>
                 </div>
-                <div class="row">
+                <div class="row result">
+                    <div class="col-md-2 col-xs-2">
+                        <span class="pull-right"><h5>Antwerpen-Centraal</h5></span>
+                    </div>
+                    <div class="col-md-8 col-xs-8">
+                        <div class="line"></div>
+                    </div>
+                    <div class="col-md-2 col-xs-2">
+                        <h5>Brussel-Zuid</h5>
+                    </div>
+                    <div class="col-md-2 col-xs-2">
+                        <span class="pull-right"><h5>Spoor 24 - 12:45</h5></span>
+                    </div>
+                    <div class="col-md-8 col-xs-8 text-center">
+                        <h5>Er zijn momenteel geen vertagingen</h5>
+                    </div>
+                    <div class="col-md-2 col-xs-2">
+                        <h5>Spoor 14 - 13:00</h5>
+                    </div>
                 </div> 
                 <div class="row">
                     <div class="col-md-2 col-xs-2"><h4>IC 1234</h4></div>
-                    <div class="col-md-8 col-xs-10"><h4>Antwerpen-Centraal - Brussel-Zuid</h4></div>
-                    <div class="col-md-2 col-xs-12"><h4>12:15 - Spoor 24</h4></div>
+                    <div class="col-md-10 col-xs-10"><h4>Antwerpen-Centraal - Brussel-Zuid</h4></div>
                 </div>
-                <div class="row">
+                <div class="row result">
+                    <div class="col-md-2 col-xs-2">
+                        <span class="pull-right"><h5>Antwerpen-Centraal</h5></span>
+                    </div>
+                    <div class="col-md-8 col-xs-8">
+                        <div class="line"></div>
+                    </div>
+                    <div class="col-md-2 col-xs-2">
+                        <h5>Brussel-Zuid</h5>
+                    </div>
+                    <div class="col-md-2 col-xs-2">
+                        <span class="pull-right"><h5>Spoor 24 - 12:45</h5></span>
+                    </div>
+                    <div class="col-md-8 col-xs-8 text-center">
+                        <h5>Er zijn momenteel geen vertagingen</h5>
+                    </div>
+                    <div class="col-md-2 col-xs-2">
+                        <h5>Spoor 14 - 13:00</h5>
+                    </div>
                 </div> 
             </div>
         </div>
