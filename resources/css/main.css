@@ -15,3 +15,8 @@ body{
 .spaced{
     margin-top: 25px;
 }
+
+.result{
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
