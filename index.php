@@ -13,38 +13,41 @@
             <div class="container">
                 <h1>WebApp</h1>
                 <div class="form-group">
-                    <row>
+                    <div class="row">
                         <div class="col-md-6 col-sx-6">
                             <label for="from">from</label>
-                            <input type="text" class="form-control" id="from">
+                            <input type="text" class="form-control" id="from" placeholder="Brussel-Zuid">
                         </div>
                         <div class="col-md-6 col-sx-6">
                             <label for="to">to</label>
-                            <input type="text" class="form-control" id="to">
+                            <input type="text" class="form-control" id="to" placeholder="Antwerpen-Centraal">
                         </div>
-                    </row>
-                    <row class="row-space">
+                    </div>
+                    <div class="row spaced">
                         <div class="col-md-6 col-sx-0">
                         </div>
-                        <div class="col-md-3 col-sx-6">
+                        <div class="col-md-4 col-sx-8">
                             <label for="date">date</label>
                             <div class="input-group date" data-provide="datepicker">
-                                <input type="text" class="form-control" id="date">
+                                <input type="text" class="form-control" id="date" placeholder="24/10/2016">
                                 <div class="input-group-addon">
                                     <span class="glyphicon glyphicon-th"></span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sx-6">
+                        <div class="col-md-2 col-sx-4">
                             <label for="time">time</label>
                             <div class="input-group date" data-provide="datepicker">
-                                <input type="text" class="form-control" id="time">
+                                <input type="text" class="form-control" id="time" placeholder="11:15">
                                 <div class="input-group-addon">
-                                    <span class="glyphicon glyphicon-th"></span>
+                                    <span class="glyphicon glyphicon-time"></span>
                                 </div>
                             </div>
                         </div>
-                    </row>
+                    </div>
+                    <div class="row spaced">
+                        <div class="col-md-6"></div>
+                    </div>
                  </div>
             </div>
         </div>
