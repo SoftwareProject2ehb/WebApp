@@ -36,19 +36,19 @@
                 <h1>Search Trains</h1>
                 <div class="form-group">
                     <div class="row">
-                        <div class="col-md-6 col-sx-6">
+                        <div class="col-md-6 col-xs-12">
                             <label for="from">from</label>
                             <input type="text" class="form-control" id="from" placeholder="Brussel-Zuid">
                         </div>
-                        <div class="col-md-6 col-sx-6">
+                        <div class="col-md-6 col-xs-12">
                             <label for="to">to</label>
                             <input type="text" class="form-control" id="to" placeholder="Antwerpen-Centraal">
                         </div>
                     </div>
                     <div class="row spaced">
-                        <div class="col-md-6 col-sx-0">
+                        <div class="col-md-6 col-xs-0">
                         </div>
-                        <div class="col-md-4 col-sx-8">
+                        <div class="col-md-4 col-xs-7">
                             <label for="date">date</label>
                             <div class="input-group date" data-provide="datepicker">
                                 <input type="text" class="form-control" id="date" placeholder="24/10/2016">
@@ -57,7 +57,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-2 col-sx-4">
+                        <div class="col-md-2 col-xs-5">
                             <label for="time">time</label>
                             <div class="input-group date" data-provide="datepicker">
                                 <input type="text" class="form-control" id="time" placeholder="11:15">
