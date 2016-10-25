@@ -26,7 +26,7 @@
                         <li class="active"><a href="#">Search Results <span class="sr-only">(current)</span></a></li>
                         <li><a href="../">New Search</a></li>
                         <li><a href="../tickets/">Tickets</a></li>
-                        <li><a href="../About/">About</a></li>
+                        <li><a href="../about/">About</a></li>
                     </ul>
                 </div>
             </div>

@@ -25,7 +25,7 @@
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.php">Search Trains <span class="sr-only">(current)</span></a></li>
                         <li><a href="tickets/">Tickets</a></li>
-                        <li><a href="About/">About</a></li>
+                        <li><a href="about/">About</a></li>
                     </ul>
                 </div>
             </div>
