@@ -13,84 +13,179 @@
         <div id="search" class="container-fluid">
             <div class="container">
                 <h1>WebApp</h1>
+                
+               <div class="row">
+                    <div class="col-md-2 col-xs-5">
+                        <h4><span class="glyphicon glyphicon-time status delayed"></span> IC 1234</h4>
+                    </div>
+                    <div class="col-md-10 col-xs-7">
+                        <h4>Antwerpen-Centraal - Brussel-Zuid</h4>
+                    </div>
+               </div>
+                <div class="result">
+                    <div class="row">
+                        <div class="col-md-5 col-xs-5">
+                            <h5>
+                                Antwerpen-Centraal
+                            </h5>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <h5>
+                                Spoor 24<br>
+                                12:15
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5 col-xs-5">
+
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <h5>This train is delayed (+0h05)</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5 col-xs-5">
+                            <h5>Brussel-Zuid</h5>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <h5>
+                                Spoor 15<br>
+                                13:00
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="row">
-                    <div class="col-md-2 col-xs-2"><h4>IC 1234</h4></div>
-                    <div class="col-md-10 col-xs-10"><h4>Antwerpen-Centraal - Brussel-Zuid</h4></div>
+                    <div class="col-md-2 col-xs-5">
+                        <h4><span class="glyphicon glyphicon-time status on-time"></span> IC 5678</h4>
+                    </div>
+                    <div class="col-md-10 col-xs-7">
+                        <h4>Antwerpen-Centraal - Brussel-Zuid</h4>
+                    </div>
+               </div>
+                <div class="result">
+                    <div class="row">
+                        <div class="col-md-5 col-xs-5">
+                            <h5>
+                                Antwerpen-Centraal
+                            </h5>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <h5>
+                                Spoor 24<br>
+                                12:45
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5 col-xs-5">
+
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <h5>There are currently no delays</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5 col-xs-5">
+                            <h5>Brussel-Zuid</h5>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <h5>
+                                Spoor 15<br>
+                                13:30
+                            </h5>
+                        </div>
+                    </div>
                 </div>
-                <div class="row result-upper">
-                    <div class="col-md-2 col-xs-4">
-                        <span class="pull-right"><h5>Antwerpen-Centraal</h5></span>
-                    </div>
-                    <div class="col-md-8 col-xs-4 vertical-center">
-                        <div class="line on-time"></div>
-                    </div>
-                    <div class="col-md-2 col-xs-4">
-                        <h5>Brussel-Zuid</h5>
-                    </div>
-                </div>
-                <div class="row result-down">
-                    <div class="col-md-2 col-xs-4">
-                        <span class="pull-right"><h5>Spoor 24 - 12:45</h5></span>
-                    </div>
-                    <div class="col-md-8 col-xs-4 text-center">
-                        <h5>On time</h5>
-                    </div>
-                    <div class="col-md-2 col-xs-4">
-                        <h5>Spoor 14 - 13:00</h5>
-                    </div>
-                </div> 
+
                 <div class="row">
-                    <div class="col-md-2 col-xs-2"><h4>IC 1234</h4></div>
-                    <div class="col-md-10 col-xs-10"><h4>Antwerpen-Centraal - Brussel-Zuid</h4></div>
+                    <div class="col-md-2 col-xs-5">
+                        <h4><span class="glyphicon glyphicon-time status cancelled"></span> IC 9876</h4>
+                    </div>
+                    <div class="col-md-10 col-xs-7">
+                        <h4>Antwerpen-Centraal - Brussel-Zuid</h4>
+                    </div>
+               </div>
+                <div class="result">
+                    <div class="row">
+                        <div class="col-md-5 col-xs-5">
+                            <h5>
+                                Antwerpen-Centraal
+                            </h5>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <h5>
+                                Spoor 24<br>
+                                13:30
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5 col-xs-5">
+
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <h5>This train is cancelled</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5 col-xs-5">
+                            <h5>Brussel-Zuid</h5>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <h5>
+                                Spoor 15<br>
+                                14:15
+                            </h5>
+                        </div>
+                    </div>
                 </div>
-                <div class="row result-upper">
-                    <div class="col-md-2 col-xs-4">
-                        <span class="pull-right"><h5>Antwerpen-Centraal</h5></span>
-                    </div>
-                    <div class="col-md-8 col-xs-4">
-                        <div class="line delayed"></div>
-                    </div>
-                    <div class="col-md-2 col-xs-4">
-                        <h5>Brussel-Zuid</h5>
-                    </div>
-                </div>
-                <div class="row result-down">
-                    <div class="col-md-2 col-xs-4">
-                        <span class="pull-right"><h5>Spoor 24 - 12:45</h5></span>
-                    </div>
-                    <div class="col-md-8 col-xs-4 text-center">
-                        <h5>Delayed +0h15</h5>
-                    </div>
-                    <div class="col-md-2 col-xs-4">
-                        <h5>Spoor 14 - 13:00</h5>
-                    </div>
-                </div> 
+
                 <div class="row">
-                    <div class="col-md-2 col-xs-2"><h4>IC 1234</h4></div>
-                    <div class="col-md-10 col-xs-10"><h4>Antwerpen-Centraal - Brussel-Zuid</h4></div>
+                    <div class="col-md-2 col-xs-5">
+                        <h4><span class="glyphicon glyphicon-time status cancelled"></span> IC 9876</h4>
+                    </div>
+                    <div class="col-md-10 col-xs-7">
+                        <h4>Antwerpen-Centraal - Brussel-Zuid</h4>
+                    </div>
+               </div>
+                <div class="result">
+                    <div class="row">
+                        <div class="col-md-5 col-xs-5">
+                            <h5>
+                                Antwerpen-Centraal
+                            </h5>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <h5>
+                                Spoor 24<br>
+                                13:30
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5 col-xs-5">
+
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <h5>This train is cancelled</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5 col-xs-5">
+                            <h5>Brussel-Zuid</h5>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <h5>
+                                Spoor 15<br>
+                                14:15
+                            </h5>
+                        </div>
+                    </div>
                 </div>
-                <div class="row result-upper">
-                    <div class="col-md-2 col-xs-4">
-                        <span class="pull-right"><h5>Antwerpen-Centraal</h5></span>
-                    </div>
-                    <div class="col-md-8 col-xs-4">
-                        <div class="line cancelled"></div>
-                    </div>
-                    <div class="col-md-2 col-xs-4">
-                        <h5>Brussel-Zuid</h5>
-                    </div>
-                </div>
-                <div class="row result-down">
-                    <div class="col-md-2 col-xs-4">
-                        <span class="pull-right"><h5>Spoor 24 - 12:45</h5></span>
-                    </div>
-                    <div class="col-md-8 col-xs-4 text-center">
-                        <h5>Cancelled</h5>
-                    </div>
-                    <div class="col-md-2 col-xs-4">
-                        <h5>Spoor 14 - 13:00</h5>
-                    </div>
-                </div> 
+
             </div>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

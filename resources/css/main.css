@@ -5,7 +5,8 @@
 
 body{
     background: linear-gradient(30deg, #f2f2f2, #d1d1d1);
-    height: 100vh;
+    min-height: 100vh;
+    max-height: auto;
 }
 
 #search{
@@ -16,33 +17,27 @@ body{
     margin-top: 25px;
 }
 
-.result-upper{
-    background-color: rgba(0, 0, 0, 0.1);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-.result-down{
-    background-color: rgba(0, 0, 0, 0.1);
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+.result{
+    height: auto;
+    background: rgba(0,0,0, 0.1);
+    border-radius: 5px;
+    padding-left: 15px;
+    box-sizing: content-box;
+    margin-bottom: 20px;
 }
 
-.line{
-    height: 8px;
-    width: 100%;
-    border-radius: 2px;
-    background-color: #333333;
-    vertical-align: middle;
+.status{
+    font-size: 0.83em;
 }
 
 .on-time{
-    background-color: lightgreen;
+    color: limegreen;
 }
 
 .delayed{
-    background-color: orange;
+    color: orange;
 }
 
 .cancelled{
-    background-color: indianred;
+    color: indianred;
 }
