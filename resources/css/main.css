@@ -5,7 +5,8 @@
 
 body{
     background: linear-gradient(30deg, #f2f2f2, #d1d1d1);
-    height: 100vh;
+    min-height: 100vh;
+    max-height: auto;
 }
 
 #search{
@@ -14,4 +15,29 @@ body{
 
 .spaced{
     margin-top: 25px;
+}
+
+.result{
+    height: auto;
+    background: rgba(0,0,0, 0.1);
+    border-radius: 5px;
+    padding-left: 15px;
+    box-sizing: content-box;
+    margin-bottom: 20px;
+}
+
+.status{
+    font-size: 0.83em;
+}
+
+.on-time{
+    color: limegreen;
+}
+
+.delayed{
+    color: orange;
+}
+
+.cancelled{
+    color: indianred;
 }
