@@ -5,8 +5,10 @@
         <meta name="viewport" content="width=device-width; initial-scale = 1.0; maximum-scale=1.0; user-scalable=no" />
         <meta name="theme-color" content="#647187">
         <title>WebApp</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/css/bootstrap-select.min.css"> 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        
         <link rel="stylesheet" href="resources/css/main.css">
     </head>
     <body>
@@ -38,11 +40,16 @@
                     <div class="row">
                         <div class="col-md-6 col-xs-12">
                             <label for="from">from</label>
-                            <input type="text" class="form-control" id="from" placeholder="Brussel-Zuid">
+                                <select class="selectpicker form-control "  type="text" id="from"  placeholder="Brussel-Zuid"  data-live-search="true">
+                                    <option data-tokens="mustard">Burger, Shake and a Smile</option>
+                                </select>
+
                         </div>
                         <div class="col-md-6 col-xs-12">
                             <label for="to">to</label>
-                            <input type="text" class="form-control" id="to" placeholder="Antwerpen-Centraal">
+                                <select class="selectpicker form-control "  type="text" id="to"  placeholder="Antwerpen-Centraal"  data-live-search="true">
+                                    <option data-tokens="Antwerpen-Centraal">Antwerpen-Centraal</option>
+                                </select>
                         </div>
                     </div>
                     <div class="row spaced">
@@ -76,7 +83,11 @@
                  </div>
             </div>
         </div>
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/js/bootstrap-select.min.js"></script> 
+        <script src="jquery-csv/src/jquery.csv.min.js" ></script>
+        <script src="CSVStations/csvread.js"></script>
     </body>
 </html>
