@@ -40,14 +40,14 @@
                     <div class="row">
                         <div class="col-md-6 col-xs-12">
                             <label for="from">from</label>
-                                <select class="selectpicker form-control "  type="text" id="from"  placeholder="Brussel-Zuid"  data-live-search="true">
+                                <select class="selectpicker form-control "  type="text" id="from" data-live-search="true">
                                     
                                 </select>
 
                         </div>
                         <div class="col-md-6 col-xs-12">
                             <label for="to">to</label>
-                                <select class="selectpicker form-control "  type="text" id="to"  placeholder="Antwerpen-Centraal"  data-live-search="true">
+                                <select class="selectpicker form-control "  type="text" id="to" data-live-search="true">
                                                                                                                                                      
                                 </select>
                         </div>
@@ -87,7 +87,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/js/bootstrap-select.min.js"></script> 
-        <script src="jquery-csv/src/jquery.csv.min.js" ></script>
-        <script src="CSVStations/csvread.js" charset="utf-8"></script>
+        <script src="resources/csv/jquery-csv/src/jquery.csv.min.js" ></script>
+        <script src="resources/csv/csvread.js" charset="utf-8"></script>
     </body>
 </html>

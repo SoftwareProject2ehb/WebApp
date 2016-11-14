@@ -12,36 +12,24 @@ function readTextFile(file)
             {
                 var allText = rawFile.responseText;
                 
-                data =$.csv.toArrays(allText);
+                data = $.csv.toArrays(allText);
                 var html;
                 for(i=1;i<data.length;i++){
-                    
-                   
-                    
                     html+="<option data-tokens='" +data[i][0]+ "' >"+data[i][0]+"</option>";
-                    console.log(data[i][0]);
-                    
                 }
-                
-                    document.getElementById("from").innerHTML= html;
-                    document.getElementById("to").innerHTML= html;
+                document.getElementById("from").innerHTML= html;
+                document.getElementById("to").innerHTML= html;
                 $('#from').selectpicker('refresh');
-                $('#to').selectpicker('refresh');    
-
-                     
+                $('#to').selectpicker('refresh');
+                $('#from').selectpicker('val', 'Brussel-Zuid/Bruxelles-Midi');
+                $('#to').selectpicker('val', 'Antwerpen-Centraal');       
                 }
-                
-            }
-              
+            } 
         }
         rawFile.send(null);
     }
   
-    
-    
-
-
-readTextFile("http://nomaj.eu/wart/CSVStations/csv.csv");
+readTextFile("https://loek.es/ehb/wart/resources/csv/csv.csv");
 
     
 
