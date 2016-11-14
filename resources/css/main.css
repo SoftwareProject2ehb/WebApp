@@ -23,6 +23,7 @@ body{
     background: rgba(0,0,0, 0.1);
     border-radius: 5px;
     padding-left: 15px;
+    padding-right: 15px;
     box-sizing: content-box;
     margin-bottom: 20px;
 }

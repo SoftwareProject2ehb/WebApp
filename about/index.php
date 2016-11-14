@@ -34,7 +34,8 @@
         <div id="search" class="container-fluid">
             <div class="container">
                 <h1>About</h1>
-
+                <h4>WebApp was created by seven students from Erasmus University College Brussels. It enables its users to quickly find trainroutes in Belgium.</h4><br><br>
+                <h4>WebApp telephone: 066 666 666</h4>
                 
             </div>
         </div>
