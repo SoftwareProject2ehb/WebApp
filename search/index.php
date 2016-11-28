@@ -36,20 +36,39 @@
         <div id="search-results" class="container-fluid">
             <div class="container">
             <h1>Search Results</h1>
-            <div class="row">
-                <div class="col-md-12 col-xs-12">
-                    <button type="button" class="btn btn-info">Earlier Trains</button>
-                    <span class="pull-right"><button type="button" class="btn btn-info">Later Trains</button></span>
-                </div>
-            </div>
-            <div class="row spaced">
-                    <div class="col-md-2 col-xs-5">
-                        <h4><span class="glyphicon glyphicon-time status delayed"></span> IC 1234</h4>
-                    </div>
-                    <div class="col-md-10 col-xs-7">
-                        <h4>Antwerpen-Centraal - Brussel-Zuid</h4>
-                    </div>
-               </div>
+            <?php
+                ini_set("allow_url_fopen", true);
+        
+                if(count($_POST) != 0)
+                {
+                    $from = htmlspecialchars($_POST["from"]);
+                    $to = htmlspecialchars($_POST["to"]);
+
+                    $url = sprintf("https://api.irail.be/connections/?to=%s&from=%s&format=json", $to, $from);
+                    $result = json_decode(file_get_contents($url));
+
+                    echo sprintf("<h4>Routes from %s to %s</h4>", $from, $to);
+                    foreach($result->connection as $cnx)
+                    {
+                        $dep = $cnx->departure;
+                        echo "<div class=\"row spaced\"><div class=\"col-md-2 col-xs-5\"><h4><span class=\"glyphicon glyphicon-time status";
+                        if($cnx->canceled == 1)
+                        {
+                            echo " cancelled\"></span>";
+                        }
+                        elseif($dep->delay > 0)
+                        {
+                            echo " delayed\"></span>";
+                        }
+                        else{
+                            echo " on-time\"></span>";
+                        }
+                        echo sprintf("%s</h4></div><div class=\"col-md-10 col-xs-7\"><h4>%s</h4></div></div>", $cnx->vehicle, $cnx->direction->name);
+                        //echo "<div class=\"result\"><div class=\"row\"><div class=\"col-md-5 col-xs-5\"><h5>";
+                        }
+                    }
+            ?>
+            <!--
                 <div class="result">
                     <div class="row">
                         <div class="col-md-5 col-xs-5">
@@ -212,7 +231,7 @@
                             </h5>
                         </div>
                     </div>
-                </div>
+                </div>-->
                     <div class="row spaced">
                     <div class="col-md-12 col-xs-12">
                         <button type="button" class="btn btn-info">Earlier Trains</button>
